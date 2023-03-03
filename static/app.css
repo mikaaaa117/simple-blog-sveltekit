@@ -1,0 +1,31 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Inter', --apple-system, 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	min-height: 100vh;
+	background: #fff;
+}
+
+h3 {
+	color: #23272a;
+}
+
+p,
+label {
+	color: #202225;
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		background: linear-gradient(180deg, #131313, #111 100%);
+	}
+	h3,
+	p,
+	label {
+		color: #fff;
+	}
+}
