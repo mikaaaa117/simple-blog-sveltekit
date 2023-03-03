@@ -11,7 +11,7 @@ git clone https://github.com/mikaaaa117/simple-blog-sveltekit.git
 ```
 
 ## Notice
-It's a fullstack application and without server It will not work fine by default. You need to replace request links in `src/routes/+page.ts` and `src/routes/[id]/+page.ts`
+This is a fullstack application, and without a server, It will not work fine by default. You need to replace request links in `src/routes/+page.ts` and `src/routes/[id]/+page.ts`
 
 ## Developing
 
